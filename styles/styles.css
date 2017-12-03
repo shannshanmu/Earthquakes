@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: darkslategray;
+    max-width: 1000px;
+    position: relative;
+    margin: 0px auto;
+}
+
+body>header {
+    font-size: 2.5em;
+    font-family: 'Macondo Swash Caps', cursive;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.main {
+    background-color: lightblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+figure {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+body>footer {
+    font-size: 12px;
+    background-color: lightcyan;
+}
